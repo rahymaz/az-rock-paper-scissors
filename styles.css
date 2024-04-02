@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Croissant+One&family=Manrope&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Croissant+One&family=Manrope:wght@200;400;800&family=Merriweather:ital@0;1&family=Space+Mono:wght@700&family=Work+Sans:wght@400;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+} 
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #1c2e4e;
+    color: #ffffff;
+}
+
+ .guide {
+    margin: 2rem 10rem;
+    padding: 1rem;
+    border: 0.2rem solid #606e85;
+} 
+
+.nameScore {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guideName {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.score {
+    background-color: #ffffff;
+    color: #103d8b;
+    padding: 0.2em 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+}
+.scoreTxt {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(43, 80, 201);
+}
+
+.scoreNumber {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.display {
+    margin: 2rem 10rem;
+    padding: 1rem;
+}
+
+.img {
+    padding: 5rem;
+    border-radius:50%;
+    background-color: #ffffff;
+}
+
+.displayAssets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rules {
+    width: 10rem;
+    height: 3rem;
+
+    background-color: #1c2e4e;
+    color: #ffffff;
+    margin-left:80rem;
+    margin-bottom: 10rem;
+    border: 1px solid #ffffff;
+    border-radius: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rock{
+    border: 2rem solid red;
+}
+.paper {
+    border: 2rem solid blue;
+}
+.scissors {
+    border: 2rem solid orange;
+}

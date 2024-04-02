@@ -11,10 +11,10 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./styles.css">
     <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
-    Score Rules You Picked The House Picked You Win You Lose Play Again
+    <!-- Score Rules You Picked The House Picked You Win You Lose Play Again -->
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -28,11 +28,62 @@
     </style>
   </head>
   <body>
+    <section class="guide">
+      
+        <div class="nameScore">
+          <div class="guideName">
+            <p>ROCK</p>
+            <p>PAPER</p>   
+            <p>SCISSORS</p>    
+          </div>
+
+          <div class="score">
+            <div class="scoreTxt">Score</div>
+            <div class="scoreNumber">0</div>
+          </div>
+
+        </div>
+      
+
+    </section>
+
+    <section class="display">
+      <div class="displayAssets">
+        <div class="paper img">
+          <img src="./images/icon-paper.svg" alt="">
+        </div>
+        <div class="scissors img">
+          <img src="./images/icon-scissors.svg" alt="">
+        </div>
+        <div class="rock img">
+          <img src="./images/icon-rock.svg" alt="">
+        </div>
+      </div>
+      
+
+    </section>
+
+    <section class="instructions">
+      <button id="rules" class="rules" type="submit">R U L E S</button>
+
+    </section>
+
+
+
+
+
+
+
+
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Abdulazeez Raheem</a>.
     </div>
+    <script src="./index.js"></script>
+    <footer>
+      
+    </footer>
   </body>
 </html>
