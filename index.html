@@ -12,6 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
     <!-- Score Rules You Picked The House Picked You Win You Lose Play Again -->
@@ -51,12 +52,24 @@
           <div class="rock img" id="effect">
             <img src="./images/icon-rock.svg" alt="image for rock">
           </div>
-      </div>
-      
+        </div>
+
+        
       </div>
       
 
     </section>
+    <div class="modalDiv" id="modalDiv">
+      <div class="modalRules">
+        <h4>RULES</h4>
+        <i class="fa-solid fa-xmark" id="close-modal-icon"></i>
+      </div>
+     
+      <div class="modalImage">
+        <img src="./images/image-rules.svg" alt="">
+      </div>
+   
+    </div>
 
     <section class="instructions">
       <button id="rules" class="rules" type="submit">R U L E S</button>
